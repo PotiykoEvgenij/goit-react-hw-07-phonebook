@@ -1,0 +1,14 @@
+.formFilter {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    margin-bottom: 10px;
+}
+
+.filterInput {
+    width: 150px;
+}
