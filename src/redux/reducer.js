@@ -9,10 +9,10 @@ const initialState = {
 
 const reducer = createReducer(initialState, (builder) => {
   builder
-    .addCase(addContact, (state, action) => {
+    .addCase(addContact.fulfilled, (state, action) => {
       state.contacts.push(action.payload);
     })
-    .addCase(deleteContact, (state, action) => {
+    .addCase(deleteContact.fulfilled, (state, action) => {
       state.contacts = state.contacts.filter((contact) => contact.id !== action.payload);
     })
     .addCase(setFilter, (state, action) => {
