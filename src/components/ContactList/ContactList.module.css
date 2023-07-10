@@ -1,6 +1,7 @@
 .contactList {
     margin: auto;
-    width: 350px;
+    width: 400px;
+    padding-left: 0px;
 }
 
 .contactList li {
