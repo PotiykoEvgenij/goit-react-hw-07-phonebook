@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setFilter } from 'redux/Contacts/filterSlice';
 import { selectFilteredName } from 'redux/selectors';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styles from './ContactFilter.module.css'
 
 export const ContactsFilter = () => {
@@ -29,6 +29,6 @@ export const ContactsFilter = () => {
   );
 };
 
-ContactsFilter.propTypes = {
-  setFilter: PropTypes.func.isRequired,
-};
+// ContactsFilter.propTypes = {
+//   setFilter: PropTypes.func.isRequired,
+// };
